@@ -1,21 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="" />
+    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2HGOj6v6cFmg3ltEmkITHFaPX7q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/pjmic/IdeaProjects/CompSciProgramsJava/src/SelectionStatementPrograms/Medium",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.space"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pjmic\IdeaProjects\CompSciProgramsJava\src\SelectionStatementPrograms\Medium" />
+      <recent name="C:\Users\pjmic\IdeaProjects\CompSciProgramsJava\src\SelectionStatementPrograms\Easy" />
+      <recent name="C:\Users\pjmic\IdeaProjects\CompSciProgramsJava\src\LoopingPrograms\Easy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Question9">
+    <configuration name="Question10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopingPrograms.Easy.Question10" />
+      <module name="CompSciProgramsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopingPrograms.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopingPrograms.Easy.Question9" />
+      <module name="CompSciProgramsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopingPrograms.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Question10" />
+        <item itemvalue="Application.Question9" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -24,7 +111,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908087568</updated>
+      <workItem from="1667908088808" duration="22000" />
+      <workItem from="1667908125102" duration="3243000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
