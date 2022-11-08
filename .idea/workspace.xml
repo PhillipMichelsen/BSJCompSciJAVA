@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="Started Looping and Selection statement easy programs">
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +55,39 @@
       <recent name="C:\Users\pjmic\IdeaProjects\CompSciProgramsJava\src\LoopingPrograms\Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question9">
+  <component name="RunManager" selected="Application.Question12">
     <configuration name="Question10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoopingPrograms.Easy.Question10" />
       <module name="CompSciProgramsJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LoopingPrograms.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopingPrograms.Medium.Question11" />
+      <module name="CompSciProgramsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopingPrograms.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopingPrograms.Medium.Question12" />
+      <module name="CompSciProgramsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopingPrograms.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question12" />
+        <item itemvalue="Application.Question11" />
         <item itemvalue="Application.Question10" />
         <item itemvalue="Application.Question9" />
       </list>
@@ -112,8 +126,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667908087568</updated>
       <workItem from="1667908088808" duration="22000" />
-      <workItem from="1667908125102" duration="3243000" />
+      <workItem from="1667908125102" duration="5178000" />
     </task>
+    <task id="LOCAL-00001" summary="Started Looping and Selection statement easy programs">
+      <created>1667912411919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912411919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +151,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started Looping and Selection statement easy programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Looping and Selection statement easy programs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
