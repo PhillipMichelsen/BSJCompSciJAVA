@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="Started Looping and Selection statement easy programs">
+    <list default="true" id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="Added question prompts">
+      <change beforePath="$PROJECT_DIR$/.git/config" beforeDir="false" afterPath="$PROJECT_DIR$/.git/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Easy/Question9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopingPrograms/Medium/Question12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Easy/Question3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionStatementPrograms/Medium/Question5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pjmic/IdeaProjects/CompSciProgramsJava/src/SelectionStatementPrograms/Medium&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/pjmic/IdeaProjects/CompSciProgramsJava/src/SelectionStatementPrograms/Medium",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pjmic\IdeaProjects\CompSciProgramsJava\src\SelectionStatementPrograms\Medium" />
@@ -142,6 +125,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0710c36a-99e3-49c5-bcfe-f7416264ccb8" name="Changes" comment="" />
@@ -151,7 +137,7 @@
       <updated>1667908087568</updated>
       <workItem from="1667908088808" duration="22000" />
       <workItem from="1667908125102" duration="5178000" />
-      <workItem from="1668048604435" duration="1164000" />
+      <workItem from="1668048604435" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="Started Looping and Selection statement easy programs">
       <created>1667912411919</created>
@@ -160,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667912411919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added question prompts">
+      <created>1668050014684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668050014684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Looping and Selection statement easy programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Looping and Selection statement easy programs" />
+    <MESSAGE value="Added question prompts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added question prompts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

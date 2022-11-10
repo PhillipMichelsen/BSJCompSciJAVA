@@ -15,9 +15,12 @@ public class RunQuestion {
         System.out.print("Enter question difficulty (E for Easy, M for Medium, H for Hard): ");
         questionDifficulty = sc.nextLine();
 
-        if (questionDifficulty.equals("E")) questionDifficulty = "Easy";
-        else if (questionDifficulty.equals("M")) questionDifficulty = "Medium";
-        else if (questionDifficulty.equals("H")) questionDifficulty = "Hard";
+        questionDifficulty = switch (questionDifficulty) {
+            case "E" -> "Easy";
+            case "M" -> "Medium";
+            case "H" -> "Hard";
+            default -> questionDifficulty;
+        };
 
 
         System.out.print("Enter question number: ");
