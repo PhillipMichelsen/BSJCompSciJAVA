@@ -22,4 +22,8 @@ public class Question4 {
 
         System.out.printf("\nThe holiday allowance for this employee is $%.2f", employeeAllowance);
     }
+
+    public static void question(){
+        System.out.println("'Write a program that calculates the holiday allowance for an employee.'");
+    }
 }

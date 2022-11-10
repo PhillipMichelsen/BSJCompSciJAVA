@@ -28,4 +28,8 @@ public class Question12 {
         System.out.println("Total tax collected: " + totalTaxCollected);
         System.out.println("Number of houses that paid tax: " + housesTaxPaid);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to read the price of 5000 houses and print the total tax collected and the number of houses that paid tax.'");
+    }
 }

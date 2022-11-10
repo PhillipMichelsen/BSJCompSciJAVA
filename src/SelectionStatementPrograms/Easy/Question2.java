@@ -22,4 +22,8 @@ public class Question2 {
         System.out.printf("\nLargest number is %d.", maxNum); // Print to user
         System.out.printf("\nSmallest number is %d.", minNum);
     }
+
+    public static void question(){
+        System.out.println("'Write a program that reads three integers and prints the largest and smallest of them.'");
+    }
 }

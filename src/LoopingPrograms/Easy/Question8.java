@@ -28,4 +28,8 @@ public class Question8 {
         System.out.printf("Max speed was %d. \nMin speed was %d. \nAverage speed was %d.", maxSpeed, minSpeed, averageSpeed);
 
     }
+
+    public static void question() {
+        System.out.println("'Write a program to read 100 car speeds and print the maximum, minimum and average speed.'");
+    }
 }

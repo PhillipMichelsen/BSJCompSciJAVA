@@ -23,4 +23,8 @@ public class Question3 {
             System.out.printf("\n%d times %d is %d", userNum, i, userNum * i);
         }
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the multiplication table of a given number from a starting number to an ending number.'");
+    }
 }

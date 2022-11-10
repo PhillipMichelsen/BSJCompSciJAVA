@@ -19,4 +19,8 @@ public class Question9 {
 
 
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the sum of the series 1+11+111+1111+… n terms.'");
+    }
 }

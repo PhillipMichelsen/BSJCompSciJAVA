@@ -16,4 +16,8 @@ public class Question3 {
 
         System.out.printf("You will receive a %d%% discount.", userDiscount); // Print to user
     }
+
+    public static void question(){
+        System.out.println("'Write a program that takes an age and prints the discount rate.'");
+    }
 }

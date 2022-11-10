@@ -19,4 +19,8 @@ public class Question10 {
 
         System.out.println("The sum of the generated numbers are: " + totalSum);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the sum of n shifted series of x.'");
+    }
 }

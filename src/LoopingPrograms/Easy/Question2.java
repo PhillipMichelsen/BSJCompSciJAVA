@@ -12,4 +12,8 @@ public class Question2 {
             System.out.printf("\n%d times %d is %d", userNum, i, userNum * i);
         }
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the multiplication table of a given number.'");
+    }
 }

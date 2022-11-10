@@ -19,4 +19,8 @@ public class Question7 {
 
         System.out.printf("\nThe temperature was 20C or above on %d days, it was below 20C on %d days.", aboveTempCount, belowTempCount);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to read 10 temperatures and print the number of days the temperature was above 20C and the number of days the temperature was below 20C.'");
+    }
 }

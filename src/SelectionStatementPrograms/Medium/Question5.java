@@ -31,4 +31,8 @@ public class Question5 {
         System.out.printf("Your fare is $%.2f", totalFare);
 
     }
+
+    public static void question(){
+        System.out.println("'Write a program that calculates the fare for a taxi ride.'");
+    }
 }

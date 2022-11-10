@@ -16,4 +16,8 @@ public class Question5 {
             }
         }
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the factors of a given number.'");
+    }
 }

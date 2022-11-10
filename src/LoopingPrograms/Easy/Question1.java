@@ -19,6 +19,9 @@ public class Question1 {
         }
 
         System.out.printf("\nThere are %d even numbers and %d odd numbers.", evenNumberCount, oddNumberCount);
+    }
 
+    public static void question() {
+        System.out.println("'Write a program to input 10 numbers from the user and count the number of even and odd numbers.'\n");
     }
 }

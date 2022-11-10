@@ -15,4 +15,9 @@ public class Question1 {
             System.out.printf("%d is an odd number.", userNum);
         }
     }
+
+    public static void question(){
+        System.out.println("'Write a program that reads an integer and check whether it is odd or even.'");
+    }
+
 }

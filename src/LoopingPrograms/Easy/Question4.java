@@ -16,5 +16,9 @@ public class Question4 {
 
         System.out.printf("The factorial of %d is %d", userNum, factorial);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to print the factorial of a given number.'");
+    }
 }
 

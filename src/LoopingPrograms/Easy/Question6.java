@@ -19,4 +19,8 @@ public class Question6 {
 
         if (!isPrime) System.out.printf("%d is a prime number.", userNum);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to check whether a given number is prime or not.'");
+    }
 }

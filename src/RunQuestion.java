@@ -5,11 +5,20 @@ public class RunQuestion {
         Scanner sc = new Scanner(System.in);
         String questionType, questionDifficulty, questionNumber;
 
-        System.out.print("Enter question type (LoopingPrograms or SelectionStatementPrograms): ");
+        System.out.print("Enter question type ('L' for LoopingPrograms, 'SS' for SelectionStatementPrograms): ");
         questionType = sc.nextLine();
 
-        System.out.print("Enter question difficulty (Easy, Medium, Hard): ");
+        if (questionType.equals("L")) questionType = "LoopingPrograms";
+        else if (questionType.equals("SS")) questionType = "SelectionStatementPrograms";
+
+
+        System.out.print("Enter question difficulty (E for Easy, M for Medium, H for Hard): ");
         questionDifficulty = sc.nextLine();
+
+        if (questionDifficulty.equals("E")) questionDifficulty = "Easy";
+        else if (questionDifficulty.equals("M")) questionDifficulty = "Medium";
+        else if (questionDifficulty.equals("H")) questionDifficulty = "Hard";
+
 
         System.out.print("Enter question number: ");
         questionNumber= sc.nextLine();
@@ -19,6 +28,7 @@ public class RunQuestion {
         System.out.printf("\nRunning '%s'...\n\n",className);
 
         try {
+            Class.forName(className).getMethod("question").invoke(null);
             Class.forName(className).getMethod("main", String[].class).invoke(null, (Object) args);
         } catch (Exception e) {
             System.out.println("Invalid question.");

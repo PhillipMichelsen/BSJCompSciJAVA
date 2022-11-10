@@ -32,4 +32,8 @@ public class Question11 {
         System.out.println("Magazines: " + magazineCount);
         System.out.println("Maps: " + mapCount);
     }
+
+    public static void question() {
+        System.out.println("'Write a program to read a sequence of product codes and print the number of books, magazines and maps.'");
+    }
 }
