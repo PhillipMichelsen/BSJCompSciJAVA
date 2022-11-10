@@ -28,13 +28,13 @@ public class RunQuestion {
 
 
         String className = questionType + "." + questionDifficulty + "." + "Question" + questionNumber;
-        System.out.printf("\nRunning '%s'...\n\n",className);
+        System.out.printf("\nTrying to run '%s'...\n\n",className);
 
         try {
             Class.forName(className).getMethod("question").invoke(null);
             Class.forName(className).getMethod("main", String[].class).invoke(null, (Object) args);
         } catch (Exception e) {
-            System.out.println("Invalid question.");
+            System.out.println("Question does not exist, try again.");
         }
 
     }
