@@ -8,8 +8,11 @@ public class RunQuestion {
         System.out.print("Enter question type ('L' for LoopingPrograms, 'SS' for SelectionStatementPrograms): ");
         questionType = sc.nextLine();
 
-        if (questionType.equals("L")) questionType = "LoopingPrograms";
-        else if (questionType.equals("SS")) questionType = "SelectionStatementPrograms";
+        questionType = switch (questionType) {
+            case "L" -> "LoopingPrograms";
+            case "SS" -> "SelectionStatementPrograms";
+            default -> questionType;
+        };
 
 
         System.out.print("Enter question difficulty (E for Easy, M for Medium, H for Hard): ");
