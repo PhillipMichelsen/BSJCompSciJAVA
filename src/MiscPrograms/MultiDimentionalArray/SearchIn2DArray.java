@@ -2,7 +2,7 @@ package MiscPrograms.MultiDimentionalArray;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Task3 {
+public class SearchIn2DArray {
     public static void main(String[] args) {
         Random random = new Random(101);
         Scanner sc = new Scanner(System.in);
@@ -17,9 +17,9 @@ public class Task3 {
         }
 
         // Print array
-        for (int row = 0; row < twoDimentionalArray.length; row++) {
-            for (int column = 0; column < twoDimentionalArray[row].length; column++) {
-                System.out.print(twoDimentionalArray[row][column] + " ");
+        for (int[] ints : twoDimentionalArray) {
+            for (int column = 0; column < ints.length; column++) {
+                System.out.print(ints[column] + " ");
             }
             System.out.println();
         }

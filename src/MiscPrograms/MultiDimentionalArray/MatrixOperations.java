@@ -3,7 +3,7 @@ package MiscPrograms.MultiDimentionalArray;
 import java.util.Scanner;
 import java.util.Random;
 
-public class MatrixTask {
+public class MatrixOperations {
     public static void main(String[] args) {
         // Initialize variables
         Scanner sc = new Scanner(System.in);
@@ -12,15 +12,11 @@ public class MatrixTask {
 
         System.out.print("Input number of rows: ");
         int M = sc.nextInt();
-        if (M < 2 || M > 22) {
-            System.out.println("Error: Number of rows must be between 2 and 22");
-            System.exit(0);
-        }
 
         System.out.print("Input number of columns: ");
         int N = sc.nextInt();
-        if (N < 2 || N > 22) {
-            System.out.println("Error: Number of rows must be between 2 and 22");
+        if (N < 2 || N > 22 || M < 2 || M > 22) {
+            System.out.println("\nError: Number of columns/rows must be between 2 and 22");
             System.exit(0);
         }
 
@@ -35,7 +31,7 @@ public class MatrixTask {
         }
 
         // Part A
-        System.out.println("\nPart A: Unsorted Array :");
+        System.out.println("\n\nPart A: Unsorted Array :");
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
                 System.out.print(A[i][j] + " ");
@@ -46,19 +42,24 @@ public class MatrixTask {
         // Part B
         int max = A[0][0];
         int min = A[0][0];
+        int maxRow = 0, maxCol = 0, minRow = 0, minCol = 0;
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
                 if (A[i][j] > max) {
                     max = A[i][j];
+                    maxRow = i;
+                    maxCol = j;
                 }
                 if (A[i][j] < min) {
                     min = A[i][j];
+                    minRow = i;
+                    minCol = j;
                 }
             }
         }
-        System.out.println("\n\nPart B: State max and min values of matrix :");
-        System.out.println("Max: " + max);
-        System.out.println("Min: " + min);
+        System.out.printf("\n\nPart B: Max value + location: %d (%d, %d)%n", max, maxRow, maxCol);
+        System.out.printf("Part B: Min value + location: %d (%d, %d)%n", min, minRow, minCol);
+
 
 
         // Part C
@@ -78,7 +79,7 @@ public class MatrixTask {
         }
 
         // Part D
-        System.out.println("\n\nSorted Matrix:");
+        System.out.println("\n\nPart C: Sorted Matrix :");
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
                 System.out.print(A[i][j] + " ");
