@@ -1,7 +1,7 @@
 package SelectionStatementPrograms.Misc;
 import java.util.Scanner;
 
-public class Question3Test {
+public class DiscountStarCard {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double amountSpent = 0, totalBill, discount = 0, discountRecieved = 0;
