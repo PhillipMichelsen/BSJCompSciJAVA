@@ -18,13 +18,13 @@ public class CarParkSystem {
 
             Scanner scanner = new Scanner(System.in);
             System.out.print("\nEnter choice: ");
-            int choice = scanner.nextInt();
+            String choice = scanner.nextLine();
             System.out.println("\n\n");
 
 
             switch (choice){
                 // Enter car
-                case 1:
+                case "1":
                     System.out.println("---------- CAR PARK SYSTEM ----------");
                     System.out.println("         || Enter carpark ||         ");
 
@@ -50,7 +50,7 @@ public class CarParkSystem {
                     break;
 
                 // Exit car
-                case 2:
+                case "2":
                     System.out.println("---------- CAR PARK SYSTEM ----------");
                     System.out.println("         || Leave carpark ||         ");
 
@@ -105,7 +105,7 @@ public class CarParkSystem {
                     break;
 
                 // Display all cars
-                case 3:
+                case "3":
                     System.out.println("---------- CAR PARK SYSTEM ----------");
                     System.out.println("         || Display info ||         ");
 
@@ -123,7 +123,7 @@ public class CarParkSystem {
                     break;
 
                 // Exit program
-                case 4:
+                case "4":
                     System.out.println("########## Exiting! ##########");
                     System.exit(0);
 
