@@ -141,9 +141,15 @@ public class CarParkSystem {
     public static String generateCode() {
         Random random = new Random();
         String code = "";
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 3; i++) {
             int randomInt = random.nextInt(26);
             char currentCharacter = (char) (randomInt + 65);
+            code += currentCharacter;
+        }
+
+        for (int i = 0; i < 3; i++) {
+            int randomInt = random.nextInt(10);
+            char currentCharacter = (char) (randomInt + 48);
             code += currentCharacter;
         }
         return code;
