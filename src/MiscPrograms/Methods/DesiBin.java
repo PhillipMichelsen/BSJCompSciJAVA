@@ -1,25 +1,30 @@
 package MiscPrograms.Methods;
 import java.util.Scanner;
 
+
 public class DesiBin {
     public static void main(String[] args) {
+        DesiBinOperations desiBinOperations = new DesiBinOperations();
+
         int num;
         long binary;
 
-        num = getNum();
-        binary = convertToBinary(num);
+        num = desiBinOperations.getNum();
+        binary = desiBinOperations.convertToBinary(num);
 
-        printBinary(binary);
+        desiBinOperations.printBinary(binary);
     }
+}
 
-    public static int getNum() {
+class DesiBinOperations {
+    public int getNum() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
 
         return scanner.nextInt();
     }
 
-    public static int convertToBinary(int num) {
+    public int convertToBinary(int num) {
         int binary = 0;
         int remainder = 0;
         int i = 1;
@@ -34,7 +39,7 @@ public class DesiBin {
         return binary;
     }
 
-    public static void printBinary(long binary) {
+    public void printBinary(long binary) {
         System.out.println("Binary: " + binary);
     }
 }

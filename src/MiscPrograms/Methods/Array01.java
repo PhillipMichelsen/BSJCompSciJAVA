@@ -3,20 +3,25 @@ import java.util.Random;
 
 public class Array01 {
     public static void main(String[] args) {
+        ArrayOperations arrayOperations = new ArrayOperations();
+
         int[] array = new int[20];
-        array = fillArray(array);
+        array = arrayOperations.fillArray(array);
 
         System.out.println("Original Array: ");
-        printArray(array);
+        arrayOperations.printArray(array);
 
-        System.out.println("\n\nAverage: " + calculateAverage(array));
+        System.out.println("\n\nAverage: " + arrayOperations.calculateAverage(array));
 
-        array = sortArray(array);
+        array = arrayOperations.sortArray(array);
         System.out.println("\nSorted Array: ");
-        printArray(array);
+        arrayOperations.printArray(array);
     }
 
-    public static int[] fillArray(int[] array) {
+}
+
+class ArrayOperations {
+    public int[] fillArray(int[] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
@@ -25,7 +30,7 @@ public class Array01 {
         return array;
     }
 
-    public static double calculateAverage(int[] array) {
+    public double calculateAverage(int[] array) {
         double sum = 0;
         for (int num : array) {
             sum += num;
@@ -34,7 +39,7 @@ public class Array01 {
         return sum / array.length;
     }
 
-    public static int[] sortArray(int[] array) {
+    public int[] sortArray(int[] array) {
         int minIndex = 0;
         int temp = 0;
         for (int i = 0; i < array.length; i++) {
@@ -53,7 +58,7 @@ public class Array01 {
         return array;
     }
 
-    public static void printArray(int[] array) {
+    public void printArray(int[] array) {
         for (int num : array) {
             System.out.print(num + " ");
         }
