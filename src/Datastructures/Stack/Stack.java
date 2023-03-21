@@ -11,33 +11,43 @@ public class Stack {
 
     public enum Status{
         SUCCESS,
+        FAILED_FULL,
+        FAILED_EMPTY,
         FULL,
         EMPTY
     }
-    private Status currentStatus = Status.SUCCESS;
+    private Status currentStatus = Status.EMPTY;
 
     // BASIC OPERATIONS
 
     // Push, adds value to top of stack. Updates status accordingly
     public void push(int value) {
         if (isFull()) {
-            currentStatus = Status.FULL;
+            currentStatus = Status.FAILED_FULL;
         }
         else {
             top++;
             stackArray[top] = value;
             currentStatus = Status.SUCCESS;
+
+            if (top == size - 1) {
+                currentStatus = Status.FULL;
+            }
         }
     }
 
     // Pop, removes top value from stack. Updates status accordingly
     public void pop() {
         if (isEmpty()) {
-            currentStatus = Status.EMPTY;
+            currentStatus = Status.FAILED_EMPTY;
         }
         else {
             top--;
             currentStatus = Status.SUCCESS;
+
+            if (top == -1) {
+                currentStatus = Status.EMPTY;
+            }
         }
     }
 
@@ -46,14 +56,19 @@ public class Stack {
             return stackArray[top];
     }
 
+    // getTopIndex, returns top.
+    public int getTopIndex(){
+        return top;
+    }
+
     // isEmpty, returns true if stack is empty. Internal use only
     private boolean isEmpty() {
-        return (top == -1);
+        return (currentStatus == Status.EMPTY);
     }
 
     // isFull, returns true if stack is full. Internal use only
     private boolean isFull() {
-        return (top == size - 1);
+        return (currentStatus == Status.FULL);
     }
 
 
