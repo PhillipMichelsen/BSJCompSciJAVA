@@ -22,9 +22,11 @@ public class StackTest {
                     scanner.nextLine();
                     stack.push(value);
                     break;
+
                 case "pop":
                     stack.pop();
                     break;
+
                 case "print":
                     int[] stackList = stack.getStackArray();
 
@@ -34,14 +36,14 @@ public class StackTest {
                     System.out.println();
                     System.out.println(stack.getTopIndex());
                     break;
+
                 case "EXIT":
                     break label;
+
                 default:
                     System.out.print("Invalid command");
                     break;
             }
         }
-
-
     }
 }

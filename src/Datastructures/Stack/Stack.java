@@ -16,6 +16,7 @@ public class Stack {
         FULL,
         EMPTY
     }
+
     private Status currentStatus = Status.EMPTY;
 
     // BASIC OPERATIONS
@@ -63,12 +64,12 @@ public class Stack {
 
     // isEmpty, returns true if stack is empty. Internal use only
     private boolean isEmpty() {
-        return (currentStatus == Status.EMPTY);
+        return (currentStatus == Status.EMPTY || currentStatus == Status.FAILED_EMPTY);
     }
 
     // isFull, returns true if stack is full. Internal use only
     private boolean isFull() {
-        return (currentStatus == Status.FULL);
+        return (currentStatus == Status.FULL || currentStatus == Status.FAILED_FULL);
     }
 
 
